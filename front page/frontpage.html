@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="frontpage.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="wrap-up">
+
+            <div class="header">   
+                <h2>Attendance Form</h2> 
+                <i class='bx bxs-user-circle' ></i>
+            </div>
+
+            <form>
+                <div class="input-tab">
+                    <input id="full-name" type="text" placeholder="Enter your fullname">
+                    <div id="name-error" class="error-tab"></div>
+                </div>
+                <div class="input-tab">
+                    <input id="student-id" type="text" placeholder="Enter your Student Id">
+                    <div id="studentid-error" class="error-tab"></div>
+                </div>
+                <div class="input-tab">
+                   <input id="section" type="text" placeholder="Enter your section">
+                   <div id="section-error" class="error-tab"></div>
+                </div>
+                <div class="btn-form">
+                    <input id="submit-btn" type="submit" value="Submit">
+                </div>
+            </form>
+
+            <div class="pop-up">
+                <h2>Thank you</h2>
+                <p>Validation success</p>
+                <button class="ok-btn" id="okBtn" type="button">OK</button>
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
